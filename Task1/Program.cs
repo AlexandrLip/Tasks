@@ -1,14 +1,12 @@
 ﻿Console.WriteLine($"введите первое число: ");
-int number1 = Console.ReadLine();
+int number1 = int.Parse(Console.ReadLine());
 Console.WriteLine($"введите второе число: ");
-
-int number2 = Console.ReadLine();
-
-if(number2 == number1);
+int number2 = int.Parse(Console.ReadLine());
+if (number2 == number1 * number1)
 {
     Console.WriteLine($"a = {number1}; b = {number2} -> да");
 }
-else
+    else
 {
-    Console.WriteLine($"a = {number1}; b = {number2} -> нет");
+    Console.WriteLine($"a = {number1}; b = {number2} -> нет"); 
 }
