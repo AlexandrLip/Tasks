@@ -2,7 +2,7 @@
 числа и проверяет, является ли одно число квадратом другого.
 */
 
-using System;
+Console.Clear();
 
 Console.WriteLine("Ведите первое число");
 int numA = int.Parse(Console.ReadLine());
