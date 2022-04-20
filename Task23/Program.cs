@@ -26,5 +26,8 @@ if (x>0&&y<0)
     {
         Console.WriteLine("четверть №4");
     }
-
+else
+{
+    Console.WriteLine("вероятно вы ввели нулевые значения x и y");
+}
       
