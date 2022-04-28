@@ -6,6 +6,7 @@
 
 using System;
 using static System.Console;
+Console.Clear();
 
 Console.Write("Введите число: ");
 int a = int.Parse(Console.ReadLine());
