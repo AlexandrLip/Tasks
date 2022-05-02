@@ -8,7 +8,7 @@
 using static System.Console;
 Console.Clear();
 
-int[] Array = new int[4];
+int[] Array = new int[6];
 for (int i = 0; i < Array.Length; i++)
 {
    Array[i] = new Random().Next(0, 100);
@@ -29,7 +29,7 @@ for (int i = 1; i < Array.Length; i++)
 }
    int Raz = max - min;
 
-WriteLine($"{string.Join(", ", Array[0..4])}");
+WriteLine($"{string.Join(", ", Array[0..6])}");
 
 Console.WriteLine($"Разница максимального и минимального элемента в массиве = {Raz}:");
 
