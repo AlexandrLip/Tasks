@@ -17,7 +17,7 @@ Console.WriteLine("Введите количество столбцов масс
 int n = int.Parse(Console.ReadLine());
 int[,] numbers = GetArray(m, n, 0, 100);
 PrintArray(numbers);
-Console.WriteLine("Введи порядковый номер числа:");
+Console.WriteLine("Введи позицию элемента в массиве:");
 
 Console.WriteLine();
 int nSearch, orderNumber, i, j;
@@ -65,6 +65,6 @@ string FindElementInOrder(int num, int[,] arr)
     {
         i = num / arr.GetLength(1);
         j = num % arr.GetLength(1) - 1;
-        return $"Число с порядковым номером {num}: {arr[i, j]}.";
+        return $"Элемент на позиции {num} = {arr[i, j]}.";
     }
 }
